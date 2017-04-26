@@ -72,4 +72,20 @@ Don't generate a `yarn.lock` lockfile.
 
 ##### `yarn install --offline` <a class="toc" id="toc-yarn-install-offline" href="#toc-yarn-install-offline"></a>
 
-Run yarn install in offline mode.
+Trigger an error if any required dependencies are not available in local cache.
+
+##### `yarn install --prefer-offline` <a class="toc" id="toc-yarn-install-prefer-offline" href="#toc-yarn-install-prefer-offline"></a>
+
+Use network only if dependencies are not available in local cache.
+
+##### `yarn install --no-bin-links` <a class="toc" id="toc-yarn-install-no-bin-links" href="#toc-yarn-install-no-bin-links"></a>
+
+Don't generate bin links when setting up packages
+
+##### `yarn install --ignore-platform` <a class="toc" id="toc-yarn-install-ignore-platform" href="#toc-yarn-install-ignore-platform"></a>
+
+Ignore platform checks
+
+##### `yarn install --ignore-engines` <a class="toc" id="toc-yarn-install-ignore-engines" href="#toc-yarn-install-ignore-engines"></a>
+
+Ignore engines check
